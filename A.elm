@@ -18,7 +18,7 @@ Click the button in the email to log in."""
 swedishTexts =
     { form =
         { emailAddressNotValid = "(Swedish) This email is not valid"
-        , emailAddressText = "(Swedish) E-mail"
+        , emailAddressText = "E-mail"
         , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     , success =
