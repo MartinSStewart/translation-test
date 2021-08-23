@@ -3,7 +3,7 @@ module A exposing (..)
 englishTexts =
     { form =
         { emailAddressNotValid = "This email is not valid"
-        , emailAddressText = "E-mail"
+        , emailAddressText = "E-mailtest"
         , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     , success =
