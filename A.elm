@@ -12,7 +12,7 @@ englishTexts =
 
 Click the button in the email to log in."""
         }
-    , emailSentInstructions = "If you didn’t receive an e-mail from us, check your **Spam folder**, and make sure that the e-mail address is correctly entered."
+    , emailSentInstructions = "If you didn’t receive an e-mail from us, check your **Spam folder**, and make sure that the e-mail address is correctly entered.df"
         , form2 =
                   { emailAddressNotValid = "(Swedish) This email is not valid"
                   , emailAddressText = "(Swedish) E-mail"
