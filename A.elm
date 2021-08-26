@@ -216,14 +216,12 @@ Click the button in the email to log in."""
                   Click the button in the email to log in."""
                           , form3 =
                                           { emailAddressNotValid = "(Swedish) This email is not valid"
-                                          , emailAddressText = "(Swedish) E-mail"
+                                          , emailAddressText = "🚧"
                                           , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
                                           }
                                       , success =
-                                          { checkYourEmail = "(Swedish) Check your e-mail"
-                                          , emailSent = \email -> "(Swedish) We have sent an e-mail to **" ++ Email.toString email ++ """**.
-
-                                  Click the button in the email to log in."""
+                                          { checkYourEmail = ""
+                                          , emailSent = \email -> Email.toString email
                                           }
                           }
     }
