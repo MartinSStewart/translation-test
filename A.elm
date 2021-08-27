@@ -34,7 +34,11 @@ swedishTexts =
     { form =
         { emailAddressNotValid = "(Swedish) This email is not valid"
         , emailAddressText = "(Swedish) E-mail9"
-        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
+        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy]("
+    ++ urls.termsOfService
+    ++ ").\n"
+    ++ "\n"
+    ++ "test"
         }
     , emailSentInstructions = "(Swedish) If you didn’t receive an e-mail from us, check your **Spam folder**, and make sure that the e-mail address is correctly entered."
     , form2 =
