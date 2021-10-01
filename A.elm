@@ -2,6 +2,9 @@ module A exposing (..)
 
 
 englishTexts =
+    let
+        a = 5
+    in
     { form =
         { emailAddressNotValid = "This email is not valid"
         , emailAddressText = "E-mail"
