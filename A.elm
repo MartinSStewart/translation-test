@@ -26,7 +26,7 @@ englishTexts =
         , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     , form6 =
-        { emailAddressNotValid = "(Swedish) This email is not valid"
+        { emailAddressNotValid = "(Swedish) This email is not validt"
         , emailAddressText = "(Swedish) E-mail11"
         , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
