@@ -11,24 +11,24 @@ englishTexts =
         , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown.fromString
         }
     , form3 =
-        { emailAddressNotValid = "(Swedish) This email is not valid"
-        , emailAddressText = "(Swedish) E-mail17"
-        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown
+        { emailAddressNotValid = "This email is not valid"
+        , emailAddressText = "E-mail17"
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown
         }
     , form4 =
-        { emailAddressNotValid = "(Swedish) This email is not valid"
-        , emailAddressText = "(Swedish) E-mail15"
-        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
+        { emailAddressNotValid = "This email is not valid"
+        , emailAddressText = "E-mail15"
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     , form5 =
-        { emailAddressNotValid = "(Swedish) This email is not valid"
-        , emailAddressText = "(Swedish) E-mail13"
-        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
+        { emailAddressNotValid = "This email is not valid"
+        , emailAddressText = "E-mail13"
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     , form6 =
-        { emailAddressNotValid = "(Swedish) This email is not validt"
-        , emailAddressText = "(Swedish) E-mail11"
-        , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
+        { emailAddressNotValid = "This email is not validt"
+        , emailAddressText = "E-mail11"
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
         }
     }
 
