@@ -13,7 +13,10 @@ englishTexts =
     , form3 =
         { emailAddressNotValid = "This email is not valid"
         , emailAddressText = "E-mail17"
-        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy]("
+    ++ urls.termsOfService
+    ++ "). test"
+    |> Markdown
         }
     , form4 =
         { emailAddressNotValid = "This email is not valid"
