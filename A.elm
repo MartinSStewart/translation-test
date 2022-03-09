@@ -7,8 +7,11 @@ englishTexts =
     in
     { form =
         { emailAddressNotValid = "This email is not valid"
-        , emailAddressText = "E-mail"
-        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown.fromString
+        , emailAddressText = "E-mailasdf"
+        , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy]("
+    ++ urls.termsOfService
+    ++ "). "
+    |> Markdown.fromString
         }
     , form3 =
         { emailAddressNotValid = "This email is not valid"
@@ -36,7 +39,7 @@ englishTexts =
 swedishTexts =
     { form =
         { emailAddressNotValid = "(Swedish) This email is not valid"
-        , emailAddressText = "(Swedish) E-mail9"
+        , emailAddressText = "E-mail"
         , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown.fromString
         }
     , emailSentInstructions = "(Swedish) If you didn’t receive an e-mail from us, check your **Spam folder**, and make sure that the e-mail address is correctly entered."
@@ -72,7 +75,7 @@ swedishTexts =
                  Click the button in the email to log in."""
         , form3 =
             { emailAddressNotValid = "(Swedish) This email is not valid"
-            , emailAddressText = "🚧"
+            , emailAddressText = "Epost adress text""
             , termsOfService = \urls -> "(Swedish) By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")."
             }
         , success =
