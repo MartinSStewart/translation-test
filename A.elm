@@ -7,7 +7,7 @@ englishTexts =
     in
     { form =
         { emailAddressNotValid = "This email is not valid"
-        , emailAddressText = "E-mail"
+        , emailAddressText = "E-mail123"
         , termsOfService = \urls -> "By clicking on **Log in** you agree to the use of cookies. Read more in our [complete cookie policy](" ++ urls.termsOfService ++ ")." |> Markdown.fromString
         }
     , form3 =
